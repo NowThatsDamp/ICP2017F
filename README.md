@@ -1,2 +1,3 @@
 # ICP2017F
-Ummmmm
+This is the first homework assignment.
+
