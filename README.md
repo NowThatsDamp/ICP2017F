@@ -13,10 +13,10 @@ This repository contains my homework, quizzes, and virtually every effort that I
 ![Homework](https://github.com/NowThatsDamp/ICP2017F/tree/master/hw):  
 This directory contains all my homework submissions, each of which is a folder properly named with homework number, containing the homework submission.    
 
-quiz: (the quiz hyperlink should take the reader to the quizzes folder)  
+![Quiz](https://github.com/NowThatsDamp/ICP2017F/tree/master/quiz)   
 This directory contains all my quiz submissions, each of which is a folder properly named with quiz number, containing the quiz submission.  
 
-exam: (the exam hyperlink should take the reader to the exams folder)  
+![Exam](https://github.com/NowThatsDamp/ICP2017F/tree/master/exam)   
 This directory contains all my exam submissions, each of which is a folder properly named with exam name or number, containing the exam submission.   
   
 For questions and troubleshooting, please contact:  
