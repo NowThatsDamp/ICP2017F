@@ -209,5 +209,23 @@ $ git branch
 ```  
 (T)  
 ```bash  
+Michael O'Lear@DESKTOP-LMVEA0K MINGW64 ~/git/ICP2017F/hw/1 (master)
+$ git commit -a
+warning: LF will be replaced by CRLF in hw/1/readme.md.
+The file will have its original line endings in your working directory.
+[master 82be584] sas
+ 1 file changed, 142 insertions(+), 20 deletions(-)
+
+Michael O'Lear@DESKTOP-LMVEA0K MINGW64 ~/git/ICP2017F/hw/1 (master)
+$ git push
+Counting objects: 16, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 2.91 KiB | 1.45 MiB/s, done.
+Total 16 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/NowThatsDamp/ICP2017F.git
+   e767461..82be584  master -> master
+
 ```  
 
