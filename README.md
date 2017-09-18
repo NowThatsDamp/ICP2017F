@@ -7,7 +7,7 @@ Department of Aerospace Engineering and Engineering Mechanics
 The University of Texas at Austin  
 Undergraduate - Freshman  
 http://www.shahmoradi.org/ICP2017F  
-![Picture of me](../ICP2017F/20170415_105555.jpg)  
+![Picture of me](https://github.com/NowThatsDamp/ICP2017F/blob/master/20170415_105555.jpg)  
 This repository contains my homework, quizzes, and virtually every effort that I have made for ICP2017F class. The structure of the project is the following:  
 
 ![Homework:](https://github.com/NowThatsDamp/ICP2017F/tree/master/hw)  
