@@ -1,1 +1,73 @@
+1.) 
 The role of the . operator is to make the operation cell by cell.
+Ex:
+  >> a = [1,2,3]
+a =
+     1     2     3
+>> b = [1,2,3]
+b =
+     1     2     3
+>> a*b
+Error using  * 
+Inner matrix dimensions must agree. 
+>> a.*b
+ans =
+     1     4     9
+
+
+2.)
+a =
+     1     0     3
+>> b = [2,3,7]
+b =
+     2     3     7
+>> a.*b
+ans =
+     2     0    21
+>> sum(ans)
+ans =
+    23
+  
+ 
+ 3.)
+ function [test] = testString(x)
+testString(x)
+if testSring(x) == 'MATLAB'
+   test = true;
+else
+   test = false;
+end
+ 
+ 4.)
+ | is vector form
+ || is scalar form
+ 
+ || is more efficient because computers like scalars.
+ 
+ 5.)
+ x = a/b>10.0, b=/0;
+ 
+ 6.)
+ Structre of arrays, becuase it better matches the format of computer memory and computation
+ 
+ 7.)
+ function [x1,x2] = quadRoot(a,b,c)
+x1 = (-b + sqrt((b^2)+(4*a*c)))/(2*a);
+x2 = (-b - sqrt((b^2)+(4*a*c)))/(2*a);
+end
+
+
+8.)
+function [y] = integral(a,b,c)
+y = integral(((x^2)+(c*x)+1),a,b);
+end
+
+9.)
+function [y] = getFac(n)
+y = factorial(n);
+end
+
+ 
+ 
+ 
+ 
