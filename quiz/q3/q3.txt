@@ -1,0 +1,1 @@
+The role of the . operator is to make the operation cell by cell.
