@@ -1,0 +1,16 @@
+1.)
+~~~bash
+function [result] = untitled2(x,mu,sigma)
+Half1 = (1/((sqrt(2*pi))*sigma));
+Half2 = exp((-.5)*(((x-mu)/sigma)^2));
+result = Half1*Half2;
+end
+
+
+>> untitled2(1,0,2)
+ans =
+    0.1760
+>> normpdf(1,0,2)
+ans =
+    0.1760
+~~~
