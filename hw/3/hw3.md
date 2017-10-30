@@ -99,10 +99,25 @@ end
 
 6.)
 ```Bash
-function [area] = getTriangleArea(vertices)
-area = .5*((vertices(2,1)*vertices(3,2))-(vertices(3,1)*vertices(2,2))-(vertices(1,1)*vertices(3,2))+(vertices(3,1)*vertices(1,2))+(vertices(1,1)*vertices(2,2))-(vertices(2,1)*vertices(1,2)));
+function getTriangleArea(x,y)
+x.a = input('Enter an x value for the first vertex');
+y.a = input('Enter a y value for the first vertex');
+x.b = input('Enter an x value for the second vertex');
+y.b = input('Enter a y value for the second vertex');
+x.c = input('Enter an x value for the third vertex');
+y.c = input('Enter a y value for the third vertex');
+p  = [x.a,x.b,x.c];
+o = [y.a,y.b,y.c];
+t = cross(p,o);
+Area
+function Area
+z = sum(t);
+0.5*abs(z)
+end
+getTriangleArea()
 end
 ```
+
 
 7.)
 ```Bash
