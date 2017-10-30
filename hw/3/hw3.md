@@ -125,3 +125,40 @@ function f = isPrime(n)
     end
 end
 ```
+
+8.)
+```Bash
+function genFunc(varargin)
+if isreal(cell2mat(varargin)) == 1
+    switch nargin
+        case 0 
+            a=0;
+            b=0;
+            c=0;
+        case 1
+            a=varargin{1};
+            b=0;
+            c=0;
+        case 2
+            a=varargin{1};
+            b=varargin{2};
+            c=0;
+        case 3 
+            a=varargin{1};
+            b=varargin{2};
+            c=varargin{3};
+        otherwise
+            error('improper inputs')
+    end
+else
+    error('need real inputs')
+end
+    parabola = @(x) a*x.^2 + b*x + c;
+    evalfunc();
+    function [y] = evalfunc()
+        x=4;
+        y=parabola(x);
+        disp(y);
+    end
+end
+```
