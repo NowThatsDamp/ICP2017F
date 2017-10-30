@@ -12,9 +12,10 @@ ans =
 >> normpdf(1,0,2)
 ans =
     0.1760
-~~~
+```
     
 2.)
+```Bash
 function [t] = untitled2(Megg,c,roe,K,Toriginal,Tboil,Tcenter)
 Half1 = ((Megg^(2/3))*c*(roe^(1/3)))/(K*(pi^2)*(((4*pi)/3)^(2/3)));
 Half2 = log(0.76*((Toriginal-Tboil)/(Tcenter-Tboil)));
@@ -27,9 +28,10 @@ ans =
 >> untitled2(67,3.7,1.038,0.0054,20,100,70)
 ans =
   315.2179
-  
+```
   
   3.)
+```Bash
 function [outputPolarStruct] = getPolar(inputCartesianStruct)
 checkx = isfield(inputPolarStruct,'x');
 checky = isfield(inputPolarStruct,'y');
@@ -39,7 +41,8 @@ outputPolarStruct.phi = acos(inputCartesianStruct.x/outputPolarStruct.r);
 else
 disp('Please check your input fields');
 end
-
+```
+```Bash
 function [outputCartesianStruct] = getCart(inputPolarStruct)
 checkr = isfield(inputPolarStruct,'r');
 checkphi = isfield(inputPolarStruct,'phi');
@@ -49,9 +52,10 @@ outputCartesianStruct.y = inputPolarStruct.r*sin(inputPolarStruct.phi);
 else
 disp('Please check your input fields');
 end
-
+```
 
 4.)
+```Bash
 function [bytes] = getSize(x)
 s = dir(x);
 z = size(s);
@@ -60,9 +64,10 @@ for c = 1:z(1,1)
     bytes = bytes + s(c).bytes;
 end
 end
-
+```
 
 5.)
+```Bash
 function [] = fib()
 again=1;
 while again == 1
@@ -79,7 +84,8 @@ while again == 1
         end
     end
 end
-
+```
+```Bash
 function [y] = getFib(n_int)
 if n_int == 0
     y = 0;
@@ -89,15 +95,17 @@ else
     y = getFib(n_int-1)+getFib(n_int-2);
 end
 end
-
+```
 
 6.)
+```Bash
 function [area] = getTriangleArea(vertices)
 area = .5*((vertices(2,1)*vertices(3,2))-(vertices(3,1)*vertices(2,2))-(vertices(1,1)*vertices(3,2))+(vertices(3,1)*vertices(1,2))+(vertices(1,1)*vertices(2,2))-(vertices(2,1)*vertices(1,2)));
 end
-
+```
 
 7.)
+```Bash
 function f = isPrime(n)
     if n < 0
     disp('Prime numbers are only defined for positive integers')
@@ -116,3 +124,4 @@ function f = isPrime(n)
         end
     end
 end
+```
