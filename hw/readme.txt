@@ -1,7 +1,7 @@
 This is the homework folder.
 
-``Bash
+```Bash
 $ git branch
   development
 * master
-``
+```
